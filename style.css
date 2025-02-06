@@ -18,6 +18,7 @@ body {
 }
 
 ul {
+    font-size: 18px;
     list-style: none;
     color: #F9FAF8;
     display: flex;
@@ -26,7 +27,42 @@ ul {
 
 .sign-page {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
 
+.sign-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-button-1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 120px;
+    border: none;
+    border-radius: 10%;
+    padding: 16px;
 }
 
 .info-page {
