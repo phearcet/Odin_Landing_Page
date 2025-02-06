@@ -1,8 +1,27 @@
 * {
     font-family: Roboto, Times New Roman, serif;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    color: #F9FAF8;
+    display: flex;
+    gap: 16px;
 }
 
 .sign-page {
