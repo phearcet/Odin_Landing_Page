@@ -163,4 +163,13 @@ ul {
 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: 18px;
 }
