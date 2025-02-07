@@ -28,10 +28,10 @@ ul {
 .sign-page {
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 20px;
-    padding: 50px;
+    padding: 50px 280px;
 }
 
 .sign-text {
@@ -61,7 +61,7 @@ ul {
     background-color: #3882F6;
     width: 120px;
     border: none;
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 16px;
 }
 
@@ -117,6 +117,48 @@ ul {
     align-self: center;
     padding-left: 300px;
 
+}
+
+.cta-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 120px;
+
+}
+
+.center {
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    padding: 60px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+
+.CTA {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.CTA-text {
+    color: #F9FAF8;
+    flex-shrink: 0;
+}
+
+.sign-button-2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3882F6;
+    background-color: #F9FAF8;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    padding: 16px;   
 }
 
 .footer {
